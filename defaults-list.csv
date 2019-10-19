@@ -1,0 +1,66 @@
+# global
+NSGlobalDomain,AppleShowAllExtensions,1
+NSGlobalDomain,WebKitDeveloperExtras,1
+NSGlobalDomain,_HIHideMenuBar,1
+NSGlobalDomain,com.apple.trackpad.forceClick,0
+# alfred app
+com.alfredapp.Alfred,appbundle,220
+com.alfredapp.Alfred,appstore.startup.asklogin,1
+com.alfredapp.Alfred,hotKey,41
+com.alfredapp.Alfred,hotMod,262401
+com.alfredapp.Alfred,hotString,";"
+# multitouch trackpad
+com.apple.AppleMultitouchTrackpad,ActuateDetents,1
+com.apple.AppleMultitouchTrackpad,ActuationStrength,0
+com.apple.AppleMultitouchTrackpad,Clicking,1
+com.apple.AppleMultitouchTrackpad,DragLock,0
+com.apple.AppleMultitouchTrackpad,Dragging,0
+com.apple.AppleMultitouchTrackpad,FirstClickThreshold,1
+com.apple.AppleMultitouchTrackpad,ForceSuppressed,0
+com.apple.AppleMultitouchTrackpad,SecondClickThreshold,1
+com.apple.AppleMultitouchTrackpad,TrackpadCornerSecondaryClick,0
+com.apple.AppleMultitouchTrackpad,TrackpadFiveFingerPinchGesture,2
+com.apple.AppleMultitouchTrackpad,TrackpadFourFingerHorizSwipeGesture,2
+com.apple.AppleMultitouchTrackpad,TrackpadFourFingerPinchGesture,2
+com.apple.AppleMultitouchTrackpad,TrackpadFourFingerVertSwipeGesture,2
+com.apple.AppleMultitouchTrackpad,TrackpadHandResting,1
+com.apple.AppleMultitouchTrackpad,TrackpadHorizScroll,1
+com.apple.AppleMultitouchTrackpad,TrackpadMomentumScroll,1
+com.apple.AppleMultitouchTrackpad,TrackpadPinch,1
+com.apple.AppleMultitouchTrackpad,TrackpadRightClick,1
+com.apple.AppleMultitouchTrackpad,TrackpadRotate,1
+com.apple.AppleMultitouchTrackpad,TrackpadScroll,1
+com.apple.AppleMultitouchTrackpad,TrackpadThreeFingerDrag,1
+com.apple.AppleMultitouchTrackpad,TrackpadThreeFingerHorizSwipeGesture,0
+com.apple.AppleMultitouchTrackpad,TrackpadThreeFingerTapGesture,2
+com.apple.AppleMultitouchTrackpad,TrackpadThreeFingerVertSwipeGesture,0
+com.apple.AppleMultitouchTrackpad,TrackpadTwoFingerDoubleTapGesture,1
+com.apple.AppleMultitouchTrackpad,TrackpadTwoFingerFromRightEdgeSwipeGesture,3
+# safari
+com.apple.Safari,AutoOpenSafeDownloads,0
+# dock
+com.apple.dock,autohide,1
+com.apple.dock,largesize,86
+com.apple.dock,magnification,1
+com.apple.dock,showAppExposeGestureEnabled,1
+com.apple.dock,showMissionControlGestureEnabled,1
+com.apple.dock,tilesize,45
+com.apple.dock,"trash-full",1
+com.apple.finder,DownloadsFolderListViewSettingsVersion,1
+com.apple.finder,"FK_AppCentricShowSidebar",1
+com.apple.finder,QuitMenuItem,1
+com.apple.finder,ShowPathbar,1
+com.apple.finder,ShowRemovableMediaOnDesktop,1
+com.apple.finder,ShowSidebar,1
+com.apple.finder,ShowStatusBar,1
+com.apple.finder,ShowTabView,1
+# menubar
+com.apple.systemuiserver,"NSStatusItem Visible com.apple.menuextra.airport",1
+com.apple.systemuiserver,"NSStatusItem Visible com.apple.menuextra.battery",1
+com.apple.systemuiserver,"NSStatusItem Visible com.apple.menuextra.clock",1
+com.apple.systemuiserver,"NSStatusItem Visible com.apple.menuextra.bluetooth",1
+com.apple.menuextra.battery,ShowPercent,YES
+# access authorization
+com.apple.universalaccessAuthWarning,"2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin",1
+com.apple.universalaccessAuthWarning,"2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber",1
+com.apple.universalaccessAuthWarning,"2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer",1

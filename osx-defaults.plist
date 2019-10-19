@@ -1,0 +1,80 @@
+{
+    "Apple Global Domain" =     {
+        AppleShowAllExtensions = 1;
+        WebKitDeveloperExtras = 1;
+        "_HIHideMenuBar" = 1;
+        "com.apple.trackpad.forceClick" = 0;
+    };
+    "com.alfredapp.Alfred" =     {
+        appbundle = 220;
+        "appstore.startup.asklogin" = 1;
+        hotKey = 41;
+        hotMod = 262401;
+        hotString = ";";
+    };
+    "com.apple.AppleMultitouchTrackpad" =     {
+        ActuateDetents = 1;
+        ActuationStrength = 0;
+        Clicking = 1;
+        DragLock = 0;
+        Dragging = 0;
+        FirstClickThreshold = 1;
+        ForceSuppressed = 0;
+        SecondClickThreshold = 1;
+        TrackpadCornerSecondaryClick = 0;
+        TrackpadFiveFingerPinchGesture = 2;
+        TrackpadFourFingerHorizSwipeGesture = 2;
+        TrackpadFourFingerPinchGesture = 2;
+        TrackpadFourFingerVertSwipeGesture = 2;
+        TrackpadHandResting = 1;
+        TrackpadHorizScroll = 1;
+        TrackpadMomentumScroll = 1;
+        TrackpadPinch = 1;
+        TrackpadRightClick = 1;
+        TrackpadRotate = 1;
+        TrackpadScroll = 1;
+        TrackpadThreeFingerDrag = 1;
+        TrackpadThreeFingerHorizSwipeGesture = 0;
+        TrackpadThreeFingerTapGesture = 2;
+        TrackpadThreeFingerVertSwipeGesture = 0;
+        TrackpadTwoFingerDoubleTapGesture = 1;
+        TrackpadTwoFingerFromRightEdgeSwipeGesture = 3;
+    };
+    "com.apple.dock" =     {
+        autohide = 1;
+        largesize = 86;
+        magnification = 1;
+        showAppExposeGestureEnabled = 1;
+        showMissionControlGestureEnabled = 1;
+        tilesize = 45;
+        "trash-full" = 1;
+    };
+    "com.apple.finder" =     {
+        DownloadsFolderListViewSettingsVersion = 1;
+        "FK_AppCentricShowSidebar" = 1;
+        QuitMenuItem = 1;
+        ShowPathbar = 1;
+        ShowRemovableMediaOnDesktop = 1;
+        ShowSidebar = 1;
+        ShowStatusBar = 1;
+        ShowTabView = 1;
+    };
+    "com.apple.menuextra.battery" =     {
+        ShowPercent = YES;
+    };
+    "com.apple.systemuiserver" =     {
+        "NSStatusItem Visible com.apple.menuextra.airport" = 1;
+        "NSStatusItem Visible com.apple.menuextra.battery" = 1;
+        "NSStatusItem Visible com.apple.menuextra.clock" = 1;
+        menuExtras =         (
+            "/System/Library/CoreServices/Menu Extras/Clock.menu",
+            "/System/Library/CoreServices/Menu Extras/Battery.menu",
+            "/System/Library/CoreServices/Menu Extras/AirPort.menu"
+        );
+    };
+    "com.apple.universalaccessAuthWarning" =     {
+        "2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin" = 1;
+        "2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber" = 1;
+        "2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer" = 1;
+    };
+}
