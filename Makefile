@@ -37,11 +37,15 @@ osx-defaults:
 # change shell to zsh
 #
 .PHONY: setup-zsh
-setup-zsh: zsh
+setup-zsh: zsh zsh-completions
 
 .PHONY: zsh
 zsh:
 	sh ~/make-project/zsh.sh
+# zsh completions
+.PHONY: zsh-completions
+zsh-completions:
+	rm -rf $$HOME/.zcompdump; compinit
 #
 # dotfile
 #
@@ -125,16 +129,24 @@ pyls:
 #
 # setup poetry
 .PHONY: setup-poetry
-setup-poetry: poetry poetry_zsh
+setup-poetry: poetry poetry-zsh poetry-config
 #install poetry
 .PHONY: poetry
 poetry:
 	curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
+	source $$HOME/.zprofile
 #setup for zsh
-.PHONY: poetry_zsh
-poetry_zsh:
+.PHONY: poetry-zsh
+poetry-zsh:
 	mkdir -p $$(brew --prefix)/share/zsh/site-functions
 	poetry completions zsh > $$(brew --prefix)/share/zsh/site-functions/_poetry
+# poetry config
+.PHONY: poetry-config
+poetry-config:
+	mkdir -p $$HOME/.virtualenvs
+	poetry config settings.virtualenvs.in-project false
+	poetry config settings.virtualenvs.path "$$HOME/.virtualenvs"
+
 #
 # Setup alacritty
 #
