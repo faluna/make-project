@@ -55,12 +55,12 @@ com.apple.finder,ShowSidebar,1
 com.apple.finder,ShowStatusBar,1
 com.apple.finder,ShowTabView,1
 # menubar
-com.apple.systemuiserver,"NSStatusItem Visible com.apple.menuextra.airport",1
-com.apple.systemuiserver,"NSStatusItem Visible com.apple.menuextra.battery",1
-com.apple.systemuiserver,"NSStatusItem Visible com.apple.menuextra.clock",1
-com.apple.systemuiserver,"NSStatusItem Visible com.apple.menuextra.bluetooth",1
+com.apple.systemuiserver,'NSStatusItem Visible com.apple.menuextra.airport',1
+com.apple.systemuiserver,'NSStatusItem Visible com.apple.menuextra.battery',1
+com.apple.systemuiserver,'NSStatusItem Visible com.apple.menuextra.clock',1
+com.apple.systemuiserver,'NSStatusItem Visible com.apple.menuextra.bluetooth',1
 com.apple.menuextra.battery,ShowPercent,YES
 # access authorization
-com.apple.universalaccessAuthWarning,"2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin",1
-com.apple.universalaccessAuthWarning,"2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber",1
-com.apple.universalaccessAuthWarning,"2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer",1
+com.apple.universalaccessAuthWarning,'2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin',1
+com.apple.universalaccessAuthWarning,'2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber',1
+com.apple.universalaccessAuthWarning,'2::/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer',1
