@@ -135,7 +135,7 @@ pyls:
 #
 # setup poetry
 .PHONY: setup-poetry
-setup-poetry: poetry poetry-zsh poetry-config
+setup-poetry: poetry poetry-config poetry-zsh
 #install poetry
 .PHONY: poetry
 poetry:
@@ -149,6 +149,7 @@ poetry-zsh:
 # poetry config
 .PHONY: poetry-config
 poetry-config:
+	exec $SHELL -l
 	mkdir -p $$HOME/.virtualenvs
 	poetry config virtualenvs.in-project false
 	poetry config virtualenvs.path "$$HOME/.virtualenvs"
