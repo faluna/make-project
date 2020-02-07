@@ -144,7 +144,7 @@ poetry-zsh:
 .PHONY: poetry-config
 poetry-config:
 	mkdir -p $$HOME/.virtualenvs
-	poetry config settings.virtualenvs.in-project false
+	poetry config settings.virtualenvs.in-project true
 	poetry config settings.virtualenvs.path "$$HOME/.virtualenvs"
 
 #
