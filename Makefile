@@ -1,8 +1,8 @@
 .PHONY: all
 all: ;
 
-.PHONY: setup
-build: setup-homebrew setup-env setup-zsh setup-dotfiles setup-poetry neovim setup-alacritty setup-osx
+.PHONY: build 
+build: setup-homebrew setup-env setup-zsh setup-dotfiles setup-poetry neovim setup-alacritty
 #
 # install Command LIne Tools in Mac OS X
 #
@@ -96,7 +96,13 @@ rls:
 # setup env
 #
 .PHONY: setup-env
-setup-env: pyenv goenv nodenv
+setup-env: anyenv-init pyenv goenv nodenv
+#
+# initialize
+#
+.PHONY: anyenv-init
+anyenv-init:
+	anyenv install --init
 #
 # pyenv
 #
@@ -129,7 +135,7 @@ pyls:
 #
 # setup poetry
 .PHONY: setup-poetry
-setup-poetry: poetry poetry-zsh poetry-config
+setup-poetry: poetry poetry-config poetry-zsh
 #install poetry
 .PHONY: poetry
 poetry:
@@ -143,6 +149,7 @@ poetry-zsh:
 # poetry config
 .PHONY: poetry-config
 poetry-config:
+	exec $SHELL -l
 	mkdir -p $$HOME/.virtualenvs
 	poetry config settings.virtualenvs.in-project true
 	poetry config settings.virtualenvs.path "$$HOME/.virtualenvs"

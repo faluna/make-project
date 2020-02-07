@@ -42,5 +42,5 @@ cask "karabiner-elements"
 cask "magicprefs"
 cask "skype"
 cask "slack"
-mas "Alfred", id: 405843582
+cask "alfred"
 mas "LINE", id: 539883307
